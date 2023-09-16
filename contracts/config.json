@@ -1,4 +1,13 @@
 {
   "version": 1,
-  "deployAliases": {}
+  "deployAliases": {
+    "auth-github": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/auth-github.json",
+      "feepayerKeyPath": "/root/.cache/zkapp-cli/keys/deployer.json",
+      "feepayerAlias": "deployer",
+      "fee": "2",
+      "smartContract": "ZkcGitHubAccountAuth"
+    }
+  }
 }

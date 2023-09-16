@@ -66,7 +66,7 @@ function prettyKey(key58: string): string {
   return `${prefix.join("")}...${postfix.join("")}`;
 }
 
-const ZkappAddress = PublicKey.fromBase58("B62qr58CukfE5vWc6aW5G7qSMRKkW7tHkHA7E85KV9sNqTbNUk41JFu");
+const ZkappAddress = PublicKey.fromBase58("B62qqGsRrsjqgZCMUhPRSsC68WqQLEEx3z9nGHqTMn1yGRhaaHoa5g8");
 
 const sybil = new ZkSybil(new URL(`https://api.dev.sybil.center`));
 
