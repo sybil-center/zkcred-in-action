@@ -1,3 +1,3 @@
-import { Add } from './Add.js';
+import { ZkcGitHubAccountAuth } from './ZkcGitHubAccountAuth.js';
 
-export { Add };
+export { ZkcGitHubAccountAuth };
