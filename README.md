@@ -2,18 +2,18 @@
 
 ## Description
 
-Project was created to show you power of the Zero Knowledge Credential (ZKC).
+This project was created to demonstrate the power of Zero Knowledge Credentials (ZKC).
 
-In `contracts` folder you can see Smart Contract `ZkcGitHubAccountAuth.ts` which use Github account ownership zero-knowledge credential to authenticate end use, when authentication is done user receive special token.
+In the `contracts` folder, you can find a Smart Contract named `ZkcGitHubAccountAuth.ts` which utilizes a Zero-Knowledge Credential to authenticate GitHub account ownership. Once the authentication is completed, the user receives a special token.
 
-In `ui` folder you can see frontend application which communicate with [test issuer](https://api.dev.sybil.center/documentation), and deployed Smart Contract on `Berkeley` Network.
+In the `ui` folder, you can find a frontend application that communicates with a [test issuer](https://api.dev.sybil.center/documentation) and a deployed Smart Contract on the `Berkeley` Network.
 
-To test application and feel main flow just do simple steps:
+To test the application and go through the main flow, simply follow these steps:
 
 1. Install [Auro Wallet](https://www.aurowallet.com/) (use Berkeley Network)
 2. Start frontend application
 
-To start application:
+To start frontend application:
 
 1. Go to the `contracts` folder and execute next command:
 
